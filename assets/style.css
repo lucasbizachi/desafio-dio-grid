@@ -1,0 +1,43 @@
+
+body {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+header {
+    margin: 1rem auto;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside {
+    width: 218px;
+}
+
+ul {
+    width: 218px;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 1.5rem;
+    margin-left: -2.5rem;
+}
+
+
+
+main {
+    background-color: rgb(236, 236, 236);
+}
+
+.container-aside-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
